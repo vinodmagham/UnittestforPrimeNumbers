@@ -47,6 +47,6 @@ class TestsForUtil: XCTestCase {
     
     func testTenIsPrime() {
         let number:Int = 10;
-        XCTAssertFalse(Util().isPrime(number), "10 is not a prime number");
+        XCTAssertTrue(Util().isPrime(number), "10 is not a prime number");
     }
 }
